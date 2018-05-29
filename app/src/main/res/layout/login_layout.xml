@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="125dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context="senac.sp.l13.perfilapp.LoginActivity">
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:src="@drawable/aspas" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textColorHint="#71b1da"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#71b1da"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN ME"
+        android:background="#4d92bf"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Lost Password ?"
+        android:textColor="#71b1da"
+        android:gravity="center"
+        android:paddingTop="75dp"/>
+</LinearLayout>
