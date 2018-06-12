@@ -6,89 +6,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:background="@color/colorFundo"
     tools:context="senac.sp.l13.perfilapp.PerfilActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account" />
     
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Profile Name"/>
+        android:text="Profile Name"
+        android:background="#7dbee9"
+        android:paddingLeft="140dp"
+        android:textColor="#f5f2f2"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#7dbee9"
+        android:paddingLeft="30dp"
+        android:paddingBottom="40dp">
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="125 Friends" />
+        android:hint="125 Friends"
+        android:textColorHint="#f5f2f2"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="250 Followers" />
+        android:hint="250 Followers"
+        android:textColorHint="#f5f2f2"/>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#FFFFFF">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Email:"
+        android:textColorHint="#0000FF"
+        android:hint="Email:"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#0000FF"
+        android:hint="Phone:"
+        android:paddingLeft="10dp"
+        android:background="@drawable/border"
         />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="mail@email.com"
-        />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Phone:"/>
+        android:hint="Shype:"
+        android:paddingLeft="10dp"
+        android:textColorHint="#0000FF"
+        android:background="@drawable/border"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="+99 999 555 222"/>
-    </LinearLayout>
+        android:hint="Web:"
+        android:paddingLeft="10dp"
+        android:textColorHint="#0000FF"
+        android:background="@drawable/border"/>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Skype:"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="me007"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Web:"/>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="cssauthor.com/"/>
     </LinearLayout>
 
 </LinearLayout>
